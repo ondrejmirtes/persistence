@@ -26,7 +26,7 @@ interface ClassMetadata
      *
      * The returned structure is an array of the identifier field names.
      *
-     * @return array<int, string>
+     * @return list<string>
      */
     public function getIdentifier();
 
